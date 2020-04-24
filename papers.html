@@ -18,7 +18,6 @@ layout: default
      <tr>
           <th>Title</th>
           <th>Authors</th>
-          <th>Track</th>
           <th>PDF</th>
 </thead>
 <tbody>
@@ -27,29 +26,19 @@ layout: default
 <tr>
 
 <td>
-<span><b><a href="/program/baics_{{ paper.id }}.html">{{ paper.title }}</a></b></span>
+<span><b><a href="/program/cldm_{{ paper.id }}.html">{{ paper.title }}</a></b></span>
 {% if paper.kind == "oral" %}
 <span> (Oral)</span>
-{% elsif paper.kind == "spotlight" %}
-<span> (Spotlight)</span>
-{% endif %}
 </td>
 
 <td>
 {{ paper.authors }}
 </td>
 
-<td>
-{% if paper.track == "blue_sky" %}
-Blue Sky Ideas
-{% elsif paper.track == "research" %}
-Research
-{% endif %}
-</td>
 
 <td>
 {% if paper.camera_ready %}
-<a href="/pdf/BAICS_{{ paper.id }}.pdf" target="_blank">PDF</a>
+<a href="/pdf/CLDM_{{ paper.id }}.pdf" target="_blank">PDF</a>
 {% endif %}
 </td>
 
