@@ -9,5 +9,3 @@ exclude:
   - scripts
   - vendor
   - Gemfile
-
-theme: jekyll-theme-cayman
