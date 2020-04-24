@@ -132,7 +132,7 @@
     id: 24
     kind: poster
     session: 1
-    title: Algorithmic Recourse: from Counterfactual Explanations to Interventions
+    title: Algorithmic Recourse From Counterfactual Explanations to Interventions
     track: research
   - authors: Tamas Madarasz
     camera_ready: true
