@@ -12,6 +12,18 @@ Causal models exploit the conditional distribution of the target variables given
 <p>
 The goal of this workshop is to investigate how much progress is possible by framing the learning problem beyond learning correlations, that is, by uncovering and leveraging causal relations.
 </p>
+
+<p>
+Key questions to be addressed and discussed include:
+</p>
+
+<ul>
+<li> What is the role of an underlying causal model in decision making? </li>
+<li> What is the difference between a prediction that is made with a causal model and that with a non‐causal model? </li>
+<li> The way current RL agents explore environments appears less intelligent than the way that human learners explore. One reason for this disparity may be that humans, when faced with a novel environment, do not merely observe, they also interact with the world and effect the world with actions. Maintaining a causal model of the world allows the learner to maintain plausible hypotheses and design experiments to test these hypotheses. </li>
+<li> Maintaining a distributional belief about the agent's model of the world as a tool for exploration (minimize entropy, maximize knowledge acquisition). </li>
+<li> The importance of causality to advantageous decision-making could also be potentially problematic as research into causal explanations has shown that people often have only rough, skeletal knowledge about causal mechanisms. Therefore people’s causal knowledge only allows for very rough and sometimes incorrect predictions of consequences. Given that our causal knowledge is incomplete or sometimes wrong, it might be harmful to try to base decisions on causal considerations. </li>
+</ul>
 </div>
 
 <div id="sponsors" class="row">
@@ -19,11 +31,8 @@ The goal of this workshop is to investigate how much progress is possible by fra
 <div class="break"></div>
 <div>
 <p>
-  <a href="http://research.fb.com"><img src="images/facebook.png" height="80px"/></a>
   <a href="http://deepmind.com"><img src="images/deepmind.png" height="80px"/></a>
-  <a href="https://cbmm.mit.edu/"><img src="images/cbmm.png" height="100px"/></a>
 </p>
-<p>Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
 </div>
 </div>
 
@@ -31,96 +40,17 @@ The goal of this workshop is to investigate how much progress is possible by fra
 <h2>Organizers</h2>
 <div class="break"></div>
 <ul>
-  <li><b><a href="http://www.jesshamrick.com/">Jessica Hamrick</a></b> (DeepMind)</li>
-  <li><b><a href="http://www.aidanematzadeh.me/">Aida Nematzadeh</a></b> (DeepMind)</li>
-  <li><b><a href="https://kayburns.github.io/">Kaylee Burns</a></b> (Stanford University)</li>
-  <li><b><a href="http://www.lscp.net/persons/dupoux/">Emmanuel Dupoux</a></b> (&Eacute;cole des Hautes Etudes en Sciences Sociales)</li>
-  <li><b><a href="http://alisongopnik.com/">Alison Gopnik</a></b> (UC Berkeley)</li>
-  <li><b><a href="http://web.mit.edu/cocosci/josh.html">Josh Tenenbaum</a></b> (MIT)</li>
+  <li><b><a href="https://scholar.google.ca/citations?user=dxwPYhQAAAAJ&hl=en">Rosemary Nan Ke</a></b> (Mila, University of Montreal)</li>
+  <li><b><a href="https://scholar.google.com/citations?user=krrh6OUAAAAJ&hl=en&oi=ao">Anirudh Goyal</a></b> (Mila, University of Montreal)</li>
+  <li><b><a href="http://www.janexwang.com/">Jane Wang</a></b> (Deepmind)</li>
+  <li><b><a href="http://www.is.mpg.de/~sbauer"> Stefan Bauer</a></b> (Max Planck Institute for Intelligent Systems)</li>
+  <li><b><a href="https://csilviavr.github.io/">Silvia Chiappa</a></b> (Deepmind)</li>
+  <li><b><a href="https://jovana-mitrovic.github.io/">Jovana Mitrovic</a></b> (Deepmind)</li>
+  <li><b><a href="http://thphn.com/">Theophane Weber</a></b> (Deepmind)</li>
+  <li><b><a href="https://danilorezende.com/">Danilo Rezende</a></b> (Deepmind)</li>
 </ul>
 </div>
 
-<div id="pc" class="row">
-<h2>Program Committee</h2>
-<table>
-  <tr>
-  <td>Adam Marblestone</td>
-  <td>Aishwarya Agrawal</td>
-  <td>Andrea Banino</td>
-  </tr>
-  <tr>
-  <td>Andrew Jaegle</td>
-  <td><a href="http://anselmrothe.github.io">Anselm Rothe</a></td>
-  <td>Ari Holtzman</td>
-  </tr>
-  <tr>
-  <td>Bas van Opheusden</td>
-  <td>Ben Peloquin</td>
-  <td>Bill Thompson</td>
-  </tr>
-  <tr>
-  <td>Charlie Nash</td>
-  <td>Danfei Xu</td>
-  <td>Emin Orhan</td>
-  </tr>
-  <tr>
-  <td><a href="http://stanford.edu/~ebiyik">Erdem Biyik</a></td>
-  <td>Erin Grant</td>
-  <td>Jon Gauthier</td>
-  </tr>
-  <tr>
-  <td>Josh Merel</td>
-  <td><a href="https://twitter.com/joshuacpeterson">Joshua Peterson</a></td>
-  <td>Kelsey Allen</td>
-  </tr>
-  <tr>
-  <td>Kevin Ellis</td>
-  <td>Kevin McKee</td>
-  <td>Kevin Smith</td>
-  </tr>
-  <tr>
-  <td>Leila Wehbe</td>
-  <td><a href="https://people.eecs.berkeley.edu/~lisa_anne/
-">Lisa Anne Hendricks</a></td>
-  <td>Luis Piloto</td>
-  </tr>
-  <tr>
-  <td>Mark Ho</td>
-  <td><a href="https://www.people.hps.cam.ac.uk/index/teaching-officers/halina">Marta Halina</a></td>
-  <td>Marta Kryven</td>
-  </tr>
-  <tr>
-  <td>Matthew Overlan</td>
-  <td>Max Kleiman-Weiner</td>
-  <td><a href="http://maxwellforbes.com">Maxwell Forbes</a></td>
-  </tr>
-  <tr>
-  <td>Maxwell Nye</td>
-  <td><a href="http://mbchang.github.io/">Michael Chang</a></td>
-  <td>Minae Kwon</td>
-  </tr>
-  <tr>
-  <td>Pedro Tsividis</td>
-  <td>Peter Battaglia</td>
-  <td><a href="https://qiongzhang.github.io">Qiong Zhang</a></td>
-  </tr>
-  <tr>
-  <td>Raphael Koster</td>
-  <td>Richard Futrell</td>
-  <td><a href="https://rxdhawkins.com">Robert Hawkins</a></td>
-  </tr>
-  <tr>
-  <td>Sandy Huang</td>
-  <td>Stephan Meylan</td>
-  <td>Suraj Nair</td>
-  </tr>
-  <tr>
-  <td>Tal Linzen</td>
-  <td>Tina Zhu</td>
-  <td><a href="https://www.waikeenvong.com/">Wai Keen Vong</a></td>
-  </tr>
-</table>
-</div>
 
 <div id="references" class="row">
 <h2>References</h2>
