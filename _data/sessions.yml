@@ -85,7 +85,7 @@
     session: 1
     title: Algorithmic Recourse From Counterfactual Explanations to Interventions
     track: research
-  title: Session 1 (3:15 - 4:30am)
+  title: Virtual Poster Session 1 (3:15 - 4:30am)
 - id: 2
   papers:
   - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
@@ -186,7 +186,7 @@
     session: 2
     title: 'Learning transferable task schemas by representing causal invariances'
     track: research
-  title: Session 2 (6:15 - 7:30am)
+  title: Virtual Poster Session 2 (6:15 - 7:30am)
 - id: 3
   papers:
   - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
@@ -259,4 +259,4 @@
     session: 3
     title: 'Learning transferable task schemas by representing causal invariances'
     track: research
-  title: Session 3 (10:40 - 11:30am)
+  title: Virtual Poster Session 3 (10:40 - 11:30am)
