@@ -122,7 +122,7 @@
     title: Gradient-Based Neural DAG Learning with Interventions
     track: research
     zoom: us02web.zoom.us/j/86852387101?pwd=eG9RU0VoMWlLbHJJZ3JQMHNNWFNtQT09
-  - authors: Katie Everett 
+  - authors: Katie Everett, Ian Fischer 
     camera_ready: true
     id: 12
     kind: poster
@@ -229,7 +229,7 @@
     title: Out-of-Distribution Generalization via Risk Extrapolation
     track: research
     zoom: us02web.zoom.us/j/86155338141?pwd=cllvUDlNZ0JFeTFteFFiY21hUnRrdz09
-  - authors: Katie Everett 
+  - authors: Katie Everett, Ian Fischer 
     camera_ready: true
     id: 12
     kind: poster
@@ -277,7 +277,7 @@
     title: Neural Causal Induction from Interventions
     track: research
     zoom: us02web.zoom.us/j/83005363961?pwd=OXZYbjV2UE9DRmU4TXVLUEwxbU83QT09
-  - authors: Tamas Madarasz
+  - authors: Tamas Madarasz, Timothy E. Behrens
     camera_ready: true
     id: 25
     kind: poster
