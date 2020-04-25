@@ -15,47 +15,12 @@
     session: 1
     title: Off-policy Policy Evaluation Under Unobserved Confounding
     track: research
-  - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
-    camera_ready: true
-    id: 8
-    kind: poster
-    session: 2
-    title: Resolving Spurious Correlations in Causal Models of Environments via Interventions
-    track: research
-  - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
-    camera_ready: true
-    id: 8
-    kind: poster
-    session: 3
-    title: Resolving Spurious Correlations in Causal Models of Environments via Interventions
-    track: research
   - authors: Robin Quessard, Thomas D. Barrett, William R. Clements
     camera_ready: true
     id: 9
     kind: poster
     session: 1
     title: Learning Group Structure and Disentangled Representations of Dynamical Environments
-    track: research
-  - authors: Robin Quessard, Thomas D. Barrett, William R. Clements
-    camera_ready: true
-    id: 9
-    kind: poster
-    session: 2
-    title: Learning Group Structure and Disentangled Representations of Dynamical Environments
-    track: research
-  - authors: Philippe Brouillard, Alexandre Drouin, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien
-    camera_ready: true
-    id: 10
-    kind: poster
-    session: 2
-    title: Gradient-Based Neural DAG Learning with Interventions
-    track: research
-  - authors: Philippe Brouillard, Alexandre Drouin, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien
-    camera_ready: true
-    id: 10
-    kind: poster
-    session: 3
-    title: Gradient-Based Neural DAG Learning with Interventions
     track: research
   - authors: David Krueger, Ethan Caballero, Jörn-Henrik Jacobsen, Rémi Le Priol, Jonathan Binas, Amy Zhang, Aaron Courville
     camera_ready: true
@@ -64,39 +29,11 @@
     session: 1
     title: Out-of-Distribution Generalization via Risk Extrapolation
     track: research
-  - authors: David Krueger, Ethan Caballero, Jörn-Henrik Jacobsen, Rémi Le Priol, Jonathan Binas, Amy Zhang, Aaron Courville
-    camera_ready: true
-    id: 11
-    kind: posters
-    session: 3
-    title: Out-of-Distribution Generalization via Risk Extrapolation
-    track: research
-  - authors: Katie Everett 
-    camera_ready: true
-    id: 12
-    kind: poster
-    session: 2
-    title: Cycles in Causal Learning
-    track: research
-  - authors: Katie Everett 
-    camera_ready: true
-    id: 12
-    kind: poster
-    session: 3
-    title: Cycles in Causal Learning
-    track: research
   - authors: Artem Betlei, Eustache Diemert, Massih-Reza Amini
     camera_ready: true
     id: 13
     kind: poster
     session: 1
-    title: Optimization of Treatment Assignment with Generalization Guarantees
-    track: research
-  - authors: Artem Betlei, Eustache Diemert, Massih-Reza Amini
-    camera_ready: true
-    id: 13
-    kind: poster
-    session: 2
     title: Optimization of Treatment Assignment with Generalization Guarantees
     track: research
   - authors: Benjamin Lansdell
@@ -106,25 +43,11 @@
     session: 1
     title: Towards intervention-centric causal reasoning in learning agents
     track: research
-  - authors: Benjamin Lansdell
-    camera_ready: true
-    id: 14
-    kind: poster
-    session: 3
-    title: Towards intervention-centric causal reasoning in learning agents
-    track: research
   - authors: Thibaud Rahier, Amelie Heliou, Matthieu Martin, Christophe Renaudin, Eustache Diemert 
     camera_ready: true
     id: 15
     kind: poster
     session: 1
-    title: 'Individual Treatment Effect in Presence of Observable Interference'
-    track: research
-  - authors: Thibaud Rahier, Amelie Heliou, Matthieu Martin, Christophe Renaudin, Eustache Diemert 
-    camera_ready: true
-    id: 15
-    kind: poster
-    session: 2
     title: 'Individual Treatment Effect in Presence of Observable Interference'
     track: research
   - authors: Julius von Kügelgen, Ivan Ustyuzhaninov, Peter Gehler, Matthias Bethge, Bernhard Schölkopf
@@ -134,82 +57,12 @@
     session: 1
     title: Unsupervised scene understanding via competition of experts
     track: research
-  - authors: Julius von Kügelgen, Ivan Ustyuzhaninov, Peter Gehler, Matthias Bethge, Bernhard Schölkopf
-    camera_ready: true
-    id: 16
-    kind: poster
-    session: 2
-    title: Unsupervised scene understanding via competition of experts
-    track: research
-  - authors: Amy Zhang, Clare Lyle, Shagun Sodhani, Angelos Filos, Marta Kwiatkowska, Joelle Pineau, Yarin Gal, Doina Precup
-    camera_ready: true
-    id: 17
-    kind: poster
-    session: 2
-    title: 'Invariant Causal Prediction for Block MDPs'
-    track: research
-  - authors: Amy Zhang, Clare Lyle, Shagun Sodhani, Angelos Filos, Marta Kwiatkowska, Joelle Pineau, Yarin Gal, Doina Precup
-    camera_ready: true
-    id: 17
-    kind: poster
-    session: 3
-    title: 'Invariant Causal Prediction for Block MDPs'
-    track: research
-  - authors: Suraj Nair, Yuke Zhu, Silvio Savarese, Li Fei-Fei
-    camera_ready: true
-    id: 18
-    kind: poster
-    session: 2
-    title: Causal Induction from Visual Observations for Goal Directed Tasks
-    track: research
-  - authors: Suraj Nair, Yuke Zhu, Silvio Savarese, Li Fei-Fei
-    camera_ready: true
-    id: 18
-    kind: poster
-    session: 3
-    title: Causal Induction from Visual Observations for Goal Directed Tasks
-    track: research
-  - authors: Elliot Creager, David Madras, Toniann Pitassi, Richard Zemel
-    camera_ready: true
-    id: 19
-    kind: poster
-    session: 2
-    title: Causal Modeling for Fairness in Dynamical Systems
-    track: research
-  - authors: Elliot Creager, David Madras, Toniann Pitassi, Richard Zemel
-    camera_ready: true
-    id: 19
-    kind: poster
-    session: 3
-    title: Causal Modeling for Fairness in Dynamical Systems
-    track: research
   - authors: Vishwali Mhasawade, Rumi Chunara 
     camera_ready: true
     id: 20
     kind: poster
     session: 1
     title: Multi-Environment Functional Causal Models using Gaussian Processes
-    track: research
-  - authors: Vishwali Mhasawade, Rumi Chunara 
-    camera_ready: true
-    id: 20
-    kind: poster
-    session: 2
-    title: Multi-Environment Functional Causal Models using Gaussian Processes
-    track: research
-  - authors: Nan Rosemary Ke, Danilo Rezende, Jovana Mitrović, Jane Wang, Martin Szummer
-    camera_ready: true
-    id: 21
-    kind: poster
-    session: 2
-    title: Neural Causal Induction from Interventions
-    track: research
-  - authors: Nan Rosemary Ke, Danilo Rezende, Jovana Mitrović, Jane Wang, Martin Szummer
-    camera_ready: true
-    id: 21
-    kind: poster
-    session: 3
-    title: Neural Causal Induction from Interventions
     track: research
   - authors: Zachary J Davis, Neil R Bramley, Bob Rehder, Todd Gureckis
     camera_ready: true
@@ -225,13 +78,6 @@
     session: 1
     title: Off-policy Evaluation in Infinite-Horizon Reinforcement Learning with Latent Confounders
     track: research
-  - authors: Andrew Bennett, Nathan Kallus, Lihong Li, Ali Mousavi
-    camera_ready: true
-    id: 23
-    kind: poster
-    session: 2
-    title: Off-policy Evaluation in Infinite-Horizon Reinforcement Learning with Latent Confounders
-    track: research
   - authors: Amir-Hossein Karimi, Bernhard Schölkopf, Isabel Valera
     camera_ready: true
     id: 24
@@ -239,12 +85,172 @@
     session: 1
     title: Algorithmic Recourse From Counterfactual Explanations to Interventions
     track: research
+  title: Session 1 (3:15 - 4:30am)
+- id: 2
+  papers:
+  - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
+    camera_ready: true
+    id: 8
+    kind: poster
+    session: 2
+    title: Resolving Spurious Correlations in Causal Models of Environments via Interventions
+    track: research
+  - authors: Robin Quessard, Thomas D. Barrett, William R. Clements
+    camera_ready: true
+    id: 9
+    kind: poster
+    session: 2
+    title: Learning Group Structure and Disentangled Representations of Dynamical Environments
+    track: research
+  - authors: Philippe Brouillard, Alexandre Drouin, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien
+    camera_ready: true
+    id: 10
+    kind: poster
+    session: 2
+    title: Gradient-Based Neural DAG Learning with Interventions
+    track: research
+  - authors: Katie Everett 
+    camera_ready: true
+    id: 12
+    kind: poster
+    session: 2
+    title: Cycles in Causal Learning
+    track: research
+  - authors: Artem Betlei, Eustache Diemert, Massih-Reza Amini
+    camera_ready: true
+    id: 13
+    kind: poster
+    session: 2
+    title: Optimization of Treatment Assignment with Generalization Guarantees
+    track: research
+  - authors: Thibaud Rahier, Amelie Heliou, Matthieu Martin, Christophe Renaudin, Eustache Diemert 
+    camera_ready: true
+    id: 15
+    kind: poster
+    session: 2
+    title: 'Individual Treatment Effect in Presence of Observable Interference'
+    track: research
+  - authors: Julius von Kügelgen, Ivan Ustyuzhaninov, Peter Gehler, Matthias Bethge, Bernhard Schölkopf
+    camera_ready: true
+    id: 16
+    kind: poster
+    session: 2
+    title: Unsupervised scene understanding via competition of experts
+    track: research
+  - authors: Amy Zhang, Clare Lyle, Shagun Sodhani, Angelos Filos, Marta Kwiatkowska, Joelle Pineau, Yarin Gal, Doina Precup
+    camera_ready: true
+    id: 17
+    kind: poster
+    session: 2
+    title: 'Invariant Causal Prediction for Block MDPs'
+    track: research
+  - authors: Suraj Nair, Yuke Zhu, Silvio Savarese, Li Fei-Fei
+    camera_ready: true
+    id: 18
+    kind: poster
+    session: 2
+    title: Causal Induction from Visual Observations for Goal Directed Tasks
+    track: research
+  - authors: Elliot Creager, David Madras, Toniann Pitassi, Richard Zemel
+    camera_ready: true
+    id: 19
+    kind: poster
+    session: 2
+    title: Causal Modeling for Fairness in Dynamical Systems
+    track: research
+  - authors: Vishwali Mhasawade, Rumi Chunara 
+    camera_ready: true
+    id: 20
+    kind: poster
+    session: 2
+    title: Multi-Environment Functional Causal Models using Gaussian Processes
+    track: research
+  - authors: Nan Rosemary Ke, Danilo Rezende, Jovana Mitrović, Jane Wang, Martin Szummer
+    camera_ready: true
+    id: 21
+    kind: poster
+    session: 2
+    title: Neural Causal Induction from Interventions
+    track: research
+  - authors: Andrew Bennett, Nathan Kallus, Lihong Li, Ali Mousavi
+    camera_ready: true
+    id: 23
+    kind: poster
+    session: 2
+    title: Off-policy Evaluation in Infinite-Horizon Reinforcement Learning with Latent Confounders
+    track: research
   - authors: Tamas Madarasz
     camera_ready: true
     id: 25
     kind: poster
     session: 2
     title: 'Learning transferable task schemas by representing causal invariances'
+    track: research
+  title: Session 2 (6:15 - 7:30am)
+- id: 3
+  papers:
+  - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
+    camera_ready: true
+    id: 8
+    kind: poster
+    session: 3
+    title: Resolving Spurious Correlations in Causal Models of Environments via Interventions
+    track: research
+  - authors: Philippe Brouillard, Alexandre Drouin, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien
+    camera_ready: true
+    id: 10
+    kind: poster
+    session: 3
+    title: Gradient-Based Neural DAG Learning with Interventions
+    track: research
+  - authors: David Krueger, Ethan Caballero, Jörn-Henrik Jacobsen, Rémi Le Priol, Jonathan Binas, Amy Zhang, Aaron Courville
+    camera_ready: true
+    id: 11
+    kind: posters
+    session: 3
+    title: Out-of-Distribution Generalization via Risk Extrapolation
+    track: research
+  - authors: Katie Everett 
+    camera_ready: true
+    id: 12
+    kind: poster
+    session: 3
+    title: Cycles in Causal Learning
+    track: research
+  - authors: Benjamin Lansdell
+    camera_ready: true
+    id: 14
+    kind: poster
+    session: 3
+    title: Towards intervention-centric causal reasoning in learning agents
+    track: research
+  - authors: Amy Zhang, Clare Lyle, Shagun Sodhani, Angelos Filos, Marta Kwiatkowska, Joelle Pineau, Yarin Gal, Doina Precup
+    camera_ready: true
+    id: 17
+    kind: poster
+    session: 3
+    title: 'Invariant Causal Prediction for Block MDPs'
+    track: research
+  - authors: Suraj Nair, Yuke Zhu, Silvio Savarese, Li Fei-Fei
+    camera_ready: true
+    id: 18
+    kind: poster
+    session: 3
+    title: Causal Induction from Visual Observations for Goal Directed Tasks
+    track: research
+  - authors: Elliot Creager, David Madras, Toniann Pitassi, Richard Zemel
+    camera_ready: true
+    id: 19
+    kind: poster
+    session: 3
+    title: Causal Modeling for Fairness in Dynamical Systems
+    track: research
+  - authors: Nan Rosemary Ke, Danilo Rezende, Jovana Mitrović, Jane Wang, Martin Szummer
+    camera_ready: true
+    id: 21
+    kind: poster
+    session: 3
+    title: Neural Causal Induction from Interventions
     track: research
   - authors: Tamas Madarasz
     camera_ready: true
@@ -253,3 +259,4 @@
     session: 3
     title: 'Learning transferable task schemas by representing causal invariances'
     track: research
+  title: Session 3 (10:40 - 11:30am)
