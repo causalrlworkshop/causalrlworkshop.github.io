@@ -36,7 +36,7 @@
     session: 1
     title: Gradient-Based Neural DAG Learning with Interventions
     track: research
-  - authors: Out-of-Distribution Generalization via Risk Extrapolation
+  - authors: David Krueger, Ethan Caballero, Jörn-Henrik Jacobsen, Rémi Le Priol, Jonathan Binas, Amy Zhang, Aaron Courville
     camera_ready: true
     id: 11
     kind: posters
