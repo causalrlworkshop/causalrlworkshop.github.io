@@ -1,18 +1,17 @@
 ---
 layout: default
-slides_live_id: 
+livestream: true
+slides_live_id: 38926831
 join_link: 
 ---
 
-{% if page.join_link %}
 <div class="row justify-content-center">
-<p>Click <a href="{{ page.join_link }}" target="_blank">here</a> to open the livestream in Zoom.</p>
+<p>To open the livestream in Zoom, please follow the link from the <a href="https://iclr.cc/virtual/workshops_14.html" target="_blank">ICLR CLDM Portal</a>.</p>
 </div>
-{% endif %}
 
 <div class="row justify-content-center">
   <div class="col">
-  	{% if page.slides_live_id %}
+  	{% if page.livestream and page.slides_live_id %}
     <div id="presentation-embed-{{ page.slides_live_id }}" class="slp"></div>
     <script src='https://slideslive.com/embed_presentation.js'></script>
     <script>
@@ -29,7 +28,7 @@ join_link:
     <div class="text-center"><i>The livestream has not yet started.</i></div>
 	{% endif %}
   </div>
-  
+
   <div class="col">
     <div class="rocket">
       <iframe frameborder="0" src="https://iclr.rocket.chat/channel/workshop_causallearning?layout=embedded" width="100%" height="680px"></iframe>
