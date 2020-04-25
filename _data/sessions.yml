@@ -22,6 +22,7 @@
     session: 1
     title: Learning Group Structure and Disentangled Representations of Dynamical Environments
     track: research
+    zoom: us02web.zoom.us/j/86532754971?pwd=dUJ2aUhzYllMY0RaamFUT1JJNXVvUT09
   - authors: David Krueger, Ethan Caballero, Jörn-Henrik Jacobsen, Rémi Le Priol, Jonathan Binas, Amy Zhang, Aaron Courville
     camera_ready: true
     id: 11
@@ -29,12 +30,14 @@
     session: 1
     title: Out-of-Distribution Generalization via Risk Extrapolation
     track: research
+    zoom: us02web.zoom.us/j/86821434366?pwd=NXdzNUVPQ2Q2T3RkUGkzemQ5YTgydz09
   - authors: Artem Betlei, Eustache Diemert, Massih-Reza Amini
     camera_ready: true
     id: 13
     kind: poster
     session: 1
     title: Optimization of Treatment Assignment with Generalization Guarantees
+    zoom: us02web.zoom.us/j/84810706688?pwd=NzAzSmlNVDRuNHloSEExTjZrTUl3QT09
     track: research
   - authors: Benjamin Lansdell
     camera_ready: true
@@ -42,6 +45,7 @@
     kind: poster
     session: 1
     title: Towards intervention-centric causal reasoning in learning agents
+    zoom: us02web.zoom.us/j/87594306486?pwd=ZWcrd0xsaklOVlZmbVRpYzZyZnpPQT09
     track: research
   - authors: Thibaud Rahier, Amelie Heliou, Matthieu Martin, Christophe Renaudin, Eustache Diemert 
     camera_ready: true
@@ -50,6 +54,7 @@
     session: 1
     title: 'Individual Treatment Effect in Presence of Observable Interference'
     track: research
+    zoom: us02web.zoom.us/j/86786571022?pwd=WHcvSXdNL21JQStzVVdlbjc2QXoxUT09
   - authors: Julius von Kügelgen, Ivan Ustyuzhaninov, Peter Gehler, Matthias Bethge, Bernhard Schölkopf
     camera_ready: true
     id: 16
@@ -57,6 +62,7 @@
     session: 1
     title: Unsupervised scene understanding via competition of experts
     track: research
+    zoom: us02web.zoom.us/j/85448924070?pwd=MzR2YnJxNnZlcnB4VHFjbmhLUWZEUT09
   - authors: Vishwali Mhasawade, Rumi Chunara 
     camera_ready: true
     id: 20
@@ -64,13 +70,7 @@
     session: 1
     title: Multi-Environment Functional Causal Models using Gaussian Processes
     track: research
-  - authors: Zachary J Davis, Neil R Bramley, Bob Rehder, Todd Gureckis
-    camera_ready: true
-    id: 22
-    kind: poster
-    session: 1
-    title: Human dynamic control under changing goals
-    track: research
+    zoom: us02web.zoom.us/j/84649441721?pwd=bm8xYUgyeFhRK2JvNTNYTE9IVFhOdz09
   - authors: Andrew Bennett, Nathan Kallus, Lihong Li, Ali Mousavi
     camera_ready: true
     id: 23
@@ -78,6 +78,7 @@
     session: 1
     title: Off-policy Evaluation in Infinite-Horizon Reinforcement Learning with Latent Confounders
     track: research
+    zoom: us02web.zoom.us/j/86562270185?pwd=aXE4RE5VWU41c2FQZWtqUFhRcGUrdz09
   - authors: Amir-Hossein Karimi, Bernhard Schölkopf, Isabel Valera
     camera_ready: true
     id: 24
@@ -85,15 +86,25 @@
     session: 1
     title: Algorithmic Recourse From Counterfactual Explanations to Interventions
     track: research
+    zoom: us02web.zoom.us/j/85746400523?pwd=dk52eUVuWDNXdm1rREpoeGVnVHBNQT09
   title: Virtual Poster Session 1 (3:15 - 4:30am)
 - id: 2
   papers:
+  - authors: Zachary J Davis, Neil R Bramley, Bob Rehder, Todd Gureckis
+    camera_ready: true
+    id: 22
+    kind: poster
+    session: 2
+    title: Human dynamic control under changing goals
+    track: research
+    zoom: us02web.zoom.us/j/84949717459?pwd=U1RSS25aSUN6QS81WitsNEFOWVhSQT09
   - authors: Sergei Volodin, Nevan Wichers, Jeremy Nixon
     camera_ready: true
     id: 8
     kind: poster
     session: 2
     title: Resolving Spurious Correlations in Causal Models of Environments via Interventions
+    zoom: us02web.zoom.us/j/87227396334?pwd=ay90elg0ZDU2KzhQbXdMU0xwZ1VlZz09
     track: research
   - authors: Robin Quessard, Thomas D. Barrett, William R. Clements
     camera_ready: true
@@ -102,6 +113,7 @@
     session: 2
     title: Learning Group Structure and Disentangled Representations of Dynamical Environments
     track: research
+    zoom: us02web.zoom.us/j/87347515100?pwd=UWNBVDN5UUMwQ1JhUlZNNitldlJ0QT09
   - authors: Philippe Brouillard, Alexandre Drouin, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien
     camera_ready: true
     id: 10
@@ -109,6 +121,7 @@
     session: 2
     title: Gradient-Based Neural DAG Learning with Interventions
     track: research
+    zoom: us02web.zoom.us/j/86852387101?pwd=eG9RU0VoMWlLbHJJZ3JQMHNNWFNtQT09
   - authors: Katie Everett 
     camera_ready: true
     id: 12
@@ -116,12 +129,14 @@
     session: 2
     title: Cycles in Causal Learning
     track: research
+    zoom: us02web.zoom.us/j/86006162550?pwd=N2w1Qm45L1VmSTd6eGNhNm1mbFhQQT09
   - authors: Artem Betlei, Eustache Diemert, Massih-Reza Amini
     camera_ready: true
     id: 13
     kind: poster
     session: 2
     title: Optimization of Treatment Assignment with Generalization Guarantees
+    zoom: us02web.zoom.us/j/88469422500?pwd=aXJmVm1YWEllNlA1ZXZTN0RBMHk2dz09
     track: research
   - authors: Thibaud Rahier, Amelie Heliou, Matthieu Martin, Christophe Renaudin, Eustache Diemert 
     camera_ready: true
@@ -130,6 +145,7 @@
     session: 2
     title: 'Individual Treatment Effect in Presence of Observable Interference'
     track: research
+    zoom: us02web.zoom.us/j/86982404408?pwd=MFZZeFdMUjg2bVNPcW5IVG1YQXJrdz09
   - authors: Julius von Kügelgen, Ivan Ustyuzhaninov, Peter Gehler, Matthias Bethge, Bernhard Schölkopf
     camera_ready: true
     id: 16
@@ -137,6 +153,7 @@
     session: 2
     title: Unsupervised scene understanding via competition of experts
     track: research
+    zoom: us02web.zoom.us/j/84291225707?pwd=cU05UmFXYlZzZUhvYmRuY2hGU21ZZz09
   - authors: Amy Zhang, Clare Lyle, Shagun Sodhani, Angelos Filos, Marta Kwiatkowska, Joelle Pineau, Yarin Gal, Doina Precup
     camera_ready: true
     id: 17
@@ -144,6 +161,7 @@
     session: 2
     title: 'Invariant Causal Prediction for Block MDPs'
     track: research
+    zoom: us02web.zoom.us/j/84475068155?pwd=amYzcGVOcmhpY0gvcVBDTXpGQm95Zz09
   - authors: Suraj Nair, Yuke Zhu, Silvio Savarese, Li Fei-Fei
     camera_ready: true
     id: 18
@@ -151,6 +169,7 @@
     session: 2
     title: Causal Induction from Visual Observations for Goal Directed Tasks
     track: research
+    zoom: us02web.zoom.us/j/84772435821?pwd=bmh4TVZsWkx3OVMrcWc0TGgrOFliUT09
   - authors: Elliot Creager, David Madras, Toniann Pitassi, Richard Zemel
     camera_ready: true
     id: 19
@@ -158,12 +177,14 @@
     session: 2
     title: Causal Modeling for Fairness in Dynamical Systems
     track: research
+    zoom: us02web.zoom.us/j/85327120688?pwd=MEpkSUo3Y3poaHg5VTE0MGlJTjRkQT09
   - authors: Vishwali Mhasawade, Rumi Chunara 
     camera_ready: true
     id: 20
     kind: poster
     session: 2
     title: Multi-Environment Functional Causal Models using Gaussian Processes
+    zoom: us02web.zoom.us/j/81223589758?pwd=WnJyRG5oZEV2bnpxY2xidWczc0Uydz09
     track: research
   - authors: Nan Rosemary Ke, Danilo Rezende, Jovana Mitrović, Jane Wang, Martin Szummer
     camera_ready: true
@@ -180,13 +201,7 @@
     session: 2
     title: Off-policy Evaluation in Infinite-Horizon Reinforcement Learning with Latent Confounders
     track: research
-  - authors: Tamas Madarasz
-    camera_ready: true
-    id: 25
-    kind: poster
-    session: 2
-    title: 'Learning transferable task schemas by representing causal invariances'
-    track: research
+    zoom: us02web.zoom.us/j/88379878767?pwd=M3QrOWRyK1lmblJpNnRvZHBiMjVTUT09
   title: Virtual Poster Session 2 (6:15 - 7:30am)
 - id: 3
   papers:
@@ -197,6 +212,7 @@
     session: 3
     title: Resolving Spurious Correlations in Causal Models of Environments via Interventions
     track: research
+    zoom: us02web.zoom.us/j/88674128226?pwd=TVd0ak5KdTA1Ni9sWDAwMWVuNEZiQT09
   - authors: Philippe Brouillard, Alexandre Drouin, Sébastien Lachapelle, Alexandre Lacoste, Simon Lacoste-Julien
     camera_ready: true
     id: 10
@@ -204,6 +220,7 @@
     session: 3
     title: Gradient-Based Neural DAG Learning with Interventions
     track: research
+    zoom: us02web.zoom.us/j/89865124548?pwd=akdKRU1DN2g4b1ppb1ZjbnRiM3dXQT09
   - authors: David Krueger, Ethan Caballero, Jörn-Henrik Jacobsen, Rémi Le Priol, Jonathan Binas, Amy Zhang, Aaron Courville
     camera_ready: true
     id: 11
@@ -211,6 +228,7 @@
     session: 3
     title: Out-of-Distribution Generalization via Risk Extrapolation
     track: research
+    zoom: us02web.zoom.us/j/86155338141?pwd=cllvUDlNZ0JFeTFteFFiY21hUnRrdz09
   - authors: Katie Everett 
     camera_ready: true
     id: 12
@@ -218,6 +236,7 @@
     session: 3
     title: Cycles in Causal Learning
     track: research
+    zoom: us02web.zoom.us/j/81604022893?pwd=SDVZc2s0dGgzdmF1ZlRxb2s0N2Jhdz09
   - authors: Benjamin Lansdell
     camera_ready: true
     id: 14
@@ -225,6 +244,7 @@
     session: 3
     title: Towards intervention-centric causal reasoning in learning agents
     track: research
+    zoom: us02web.zoom.us/j/84842983714?pwd=c1NxT1h5emlpNGFiWXUzY2pyQ2Y2QT09
   - authors: Amy Zhang, Clare Lyle, Shagun Sodhani, Angelos Filos, Marta Kwiatkowska, Joelle Pineau, Yarin Gal, Doina Precup
     camera_ready: true
     id: 17
@@ -232,6 +252,7 @@
     session: 3
     title: 'Invariant Causal Prediction for Block MDPs'
     track: research
+    zoom: us02web.zoom.us/j/89856121925?pwd=VHRQT214OVkvZkNFMlRnNHpjdzc2Zz09
   - authors: Suraj Nair, Yuke Zhu, Silvio Savarese, Li Fei-Fei
     camera_ready: true
     id: 18
@@ -239,6 +260,7 @@
     session: 3
     title: Causal Induction from Visual Observations for Goal Directed Tasks
     track: research
+    zoom: us02web.zoom.us/j/89047321699?pwd=OFR6anZJbnB3T1hwcmdLbnBnNGRTdz09
   - authors: Elliot Creager, David Madras, Toniann Pitassi, Richard Zemel
     camera_ready: true
     id: 19
@@ -246,6 +268,7 @@
     session: 3
     title: Causal Modeling for Fairness in Dynamical Systems
     track: research
+    zoom: us02web.zoom.us/j/81022348119?pwd=eHRjNGZxT2t0VGV5dDVnVkhRRUJ3dz09
   - authors: Nan Rosemary Ke, Danilo Rezende, Jovana Mitrović, Jane Wang, Martin Szummer
     camera_ready: true
     id: 21
@@ -253,6 +276,7 @@
     session: 3
     title: Neural Causal Induction from Interventions
     track: research
+    zoom: us02web.zoom.us/j/83005363961?pwd=OXZYbjV2UE9DRmU4TXVLUEwxbU83QT09
   - authors: Tamas Madarasz
     camera_ready: true
     id: 25
@@ -260,4 +284,5 @@
     session: 3
     title: 'Learning transferable task schemas by representing causal invariances'
     track: research
+    zoom: us02web.zoom.us/j/85706213884?pwd=djkwWTl1K1hGNElNZWt1NnVtVTcrQT09
   title: Virtual Poster Session 3 (10:40 - 11:30am)
