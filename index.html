@@ -4,15 +4,13 @@ layout: default
 
 <div class="row">
 <p>
-One proposed solution towards the goal of designing machines that can extrapolate experience across environments and tasks, are inductive biases. Providing and starting algorithms with inductive biases might help to learn invariances e.g. a causal graph structure, which in turn will allow the agent to generalize across environments and tasks. 
-While some inductive biases are already available and correspond to common knowledge, one key requirement to learn inductive biases from data seems to be the possibility to perform and learn from interventions. This assumption is partially motivated by the accepted hypothesis in psychology about the need to experiment in order to discover causal relationships. This corresponds to an reinforcement learning environment, where the agent can discover causal factors through interventions and observing their effects. 
+Deep Learning has enabled significant improvements in areas as diverse as computer vision, text understanding and reinforcement learning. However, a major challenge that still stands is the ability to generalize outside of the i.i.d setting, when we care about generalization or fast adaptation to distributions that are different from the main training distribution. It has been argued that this requires not only learning the statistical correlations within data, but the causal model underlying the data.
 
-We believe that one reason which has hampered progress on building intelligent agents is the limited availability of good inductive biases. Learning inductive biases from data is difficult since this corresponds to an interactive learning setting, which compared to classical regression or classification frameworks is far less understood e.g. even formal definitions of generalization in RL have not been developed.  While Reinforcement Learning has already achieved impressive results, the sample complexity required to achieve consistently good performance is often prohibitively high. This has limited most RL to either games or settings where an accurate simulator is available.  Another issue is that RL agents are often brittle in the face of even tiny changes to the environment (either visual or mechanistic changes) unseen in the training phase.  
+Causal models exploit the conditional distribution of the target variables given the corresponding direct causal predictors and must remain identical under interventions on variables other than the target variable. This invariance idea is closely linked to causality and has been discussed, for example, under the term ‘modularity’ (Pearl, 2009; Schölkopf et al., 2012). Hence, causal knowledge supports decision making in two ways: by allowing us to predict the consequences of different actions under the given circumstances and by helping to make diagnoses that suggest which interventions will be effective.  If the data was really generated from the composition of independent causal mechanisms (Peters et al., 2017), then there exists a good factorization of knowledge that mimics that structure. If in addition, at each time step, agents in the real world tend to only be able to change one or very few high-level variables (or the associated mechanisms producing them), then assumption of small change (in the right representation) should be generally valid. Hence we should be able to obtain fast transfer, by recovering a good approximation of the true causal decomposition into independent mechanisms (to the extent that the observations and interventions can reveal those mechanisms).
 
 </p>
 <p>
-The question of generalization in reinforcement learning is essential to the field’s future both in theory and in practice.  However there are still open questions about the right way to think about generalization in RL, the right way to formalize the problem, and the most important tasks.  This workshop would help to address this issue by bringing together researchers from different backgrounds to discuss these challenges.  
-In our workshop we hope to explore research and new ideas on topics related to inductive biases, invariances and generalization, including: 
+The goal of this workshop is to investigate how much progress is possible by framing the learning problem beyond learning correlations, that is, by uncovering and leveraging causal relations.
 </p>
 
 <p>
@@ -20,14 +18,11 @@ Key questions to be addressed and discussed include:
 </p>
 
 <ul>
-<li> What are efficient ways to learn inductive biases from data? </li>
-<li> Which inductive biases are most suitable to achieve generalization? </li>
-<li> Can we make the problem of generalization in particular for RL more concrete and figure out standard terms for discussing the problem?  </li>
-<li> Causality and generalization especially in RL </li>
-<li> Model-based RL and generalization.  </li>
-<li> Can we create models that are robust visual environments, assuming all the underlying mechanics are the same. Should this count as generalization or transfer learning? </li>
-<li> Can we create a theoretical understanding of generalization in RL, and understand how it is related to the well developed ideas from statistical learning theory ? </li>
+<li> What is the role of an underlying causal model in decision making? </li>
 <li> What is the difference between a prediction that is made with a causal model and that with a non‐causal model? </li>
+<li> The way current RL agents explore environments appears less intelligent than the way that human learners explore. One reason for this disparity may be that humans, when faced with a novel environment, do not merely observe, they also interact with the world and effect the world with actions. Maintaining a causal model of the world allows the learner to maintain plausible hypotheses and design experiments to test these hypotheses. </li>
+<li> Maintaining a distributional belief about the agent's model of the world as a tool for exploration (minimize entropy, maximize knowledge acquisition). </li>
+<li> The importance of causality to advantageous decision-making could also be potentially problematic as research into causal explanations has shown that people often have only rough, skeletal knowledge about causal mechanisms. Therefore people’s causal knowledge only allows for very rough and sometimes incorrect predictions of consequences. Given that our causal knowledge is incomplete or sometimes wrong, it might be harmful to try to base decisions on causal considerations. </li>
 </ul>
 </div>
 
@@ -45,13 +40,14 @@ Key questions to be addressed and discussed include:
 <h2>Organizers</h2>
 <div class="break"></div>
 <ul>
-  <li><b><a href="https://scholar.google.com/citations?user=krrh6OUAAAAJ&hl=en&oi=ao">Anirudh Goyal</a></b> (Mila, University of Montreal)</li>
   <li><b><a href="https://scholar.google.ca/citations?user=dxwPYhQAAAAJ&hl=en">Rosemary Nan Ke</a></b> (Mila, University of Montreal)</li>
-  <li><b><a href="http://www.is.mpg.de/~sbauer"> Stefan Bauer</a></b> (Max Planck Institute for Intelligent Systems)</li>
+  <li><b><a href="https://scholar.google.com/citations?user=krrh6OUAAAAJ&hl=en&oi=ao">Anirudh Goyal</a></b> (Mila, University of Montreal)</li>
   <li><b><a href="http://www.janexwang.com/">Jane Wang</a></b> (Deepmind)</li>
-  <li><b><a href="https://scholar.google.co.uk/citations?user=-cCry1cAAAAJ&hl=en">Fabio Viola</a></b> (Deepmind)</li>
+  <li><b><a href="http://www.is.mpg.de/~sbauer"> Stefan Bauer</a></b> (Max Planck Institute for Intelligent Systems)</li>
+  <li><b><a href="https://csilviavr.github.io/">Silvia Chiappa</a></b> (Deepmind)</li>
+  <li><b><a href="https://jovana-mitrovic.github.io/">Jovana Mitrovic</a></b> (Deepmind)</li>
   <li><b><a href="http://thphn.com/">Theophane Weber</a></b> (Deepmind)</li>
-  <li><b><a href="https://www.is.mpg.de/~bs">Bernhard Schölkopf</a></b> (Deepmind)</li>
+  <li><b><a href="https://danilorezende.com/">Danilo Rezende</a></b> (Deepmind)</li>
 </ul>
 </div>
 
@@ -59,35 +55,7 @@ Key questions to be addressed and discussed include:
 <div id="references" class="row">
 <h2>References</h2>
 <ul>
-  <li> Stuart Russell and Eric Wefald,  Principles of metareasoning, 1991 </li>
-  <li> Sutton, Richard S. "Generalization in reinforcement learning: Successful examples using sparse coarse coding." Advances in neural information processing systems. 1996. </li>
-  <li> Boyan, Justin A., and Andrew W. Moore. "Generalization in reinforcement learning: Safely approximating the value function." Advances in neural information processing systems. 1995. </li>
-  <li> J. Pearl. Causality: Models, Reasoning, and Inference. Cambridge University Press, 2000. </li>
-  <li> Murphy et.al, “A generalization error for q-learning”  (2005) </li>
-  <li> George Konidaris A framework for transfer in reinforcement learning, ICMLW’06 </li>
-  <li> Taylor, Matthew E., and Peter Stone. "Transfer learning for reinforcement learning domains: A survey." JMLR’09 </li>
-  <li> Ponsen et. al, Abstraction and Generalization in Reinforcement Learning, Springer’09  </li>
-  <li> Whiteson et. al,  Protecting against evaluation overfitting in empirical reinforcement learning (2011) </li>
-  <li> Solway et. al, Optimal behavioral hierarchy, (2014) </li>
-  <li> Schaul et. al “Universal Value Function Approximators”, ICML’15 </li>
-  <li> Gershman SJ et. al,  Novelty and Inductive Generalization in Human Reinforcement Learning. 2015 </li>
-  <li> Wang et. al, Learning to Reinforcement Learn (ICML’16) </li>
-  <li> Rajeswaran et. al, Towards generalization and simplicity in continuous control (NIPS’17) </li>
-  <li> Andreas et. al, Modular Multitask Reinforcement Learning with Policy Sketches, ICML’17 </li>
-  <li> Yee Whye Teh, et. al “Distral: Robust Multitask Reinforcement Learning” (2017) </li>
-  <li> Momennejad et.al The successor representation in human reinforcement learning, (2017) </li>
-  <li> Hamrick et. al, Metacontrol for adaptive imagination-based optimization. ICLR’17 </li>
-  <li> Cobbe, Karl, et al. "Quantifying Generalization in Reinforcement Learning." arXiv preprint arXiv:1812.02341(2018). </li>
-  <li> Zhang et. al, “ A Study on Overfitting in Deep Reinforcement Learning” (arxiv 2018) </li>
-  <li> Sanchez-Gonzalez et. al, Graph networks as learnable physics engines for inference and control, ICML’18 </li>
-  <li> Nichol, Alex, et al. "Gotta Learn Fast: A New Benchmark for Generalization in RL." arXiv preprint arXiv:1804.03720 (arxiv 2018). </li>
-  <li> Packer, Charles, et al. "Assessing Generalization in Deep Reinforcement Learning." arXiv (2018)</li>
-  <li> Zhang et. al, A dissection of overfitting and generalization in continuous reinforcement learning, (2018) </li>
-  <li> Alet et. al,  Modular meta-learning, CORL’18 </li>
-  <li> Galashov et. al, Information asymmetry in KL-regularized RL, ICLR’19 </li>
-  <li> Goyal et. al, InfoBot: Transfer and Exploration via the Information Bottleneck ICLR’19 </li>
-  <li> Farebrother, Jesse, et al. “Generalization and Regularization in DQN” (2019). </li>
-  <li> Goyal et. al, Recurrent Independent Mechanisms, arxiv preprint arxiv:1909.10893 </li>
+  <li> Pearl, J. (2009) Causality: Models, Reasoning, and Inference. </li>
   <li> Peters, Jonas, Dominik Janzing, and Bernhard Schölkopf. Elements of causal inference: foundations and learning algorithms. MIT press, 2017. </li>
   <li> Judea Pearl (2018): The Seven Pillars of Causal Reasoning with Reflections on Machine Learning. </li>
   <li> James Woodward (2005): Making Things Happen: A Theory of Causal Explanation. </li>
